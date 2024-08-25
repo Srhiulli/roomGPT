@@ -27,4 +27,4 @@ describe('HomePage Test', () => {
     cy.get(homepageSelectors.originalRoomImage).should('be.visible');
     cy.get(homepageSelectors.generatedRoomImage).should('be.visible');
   });
-});
+}); 
