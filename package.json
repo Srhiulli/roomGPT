@@ -1,10 +1,11 @@
 {
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+"scripts": {
+  "dev": "next dev",
+   "build": "next build",
+    "start": "next start",
+  "test:cypress": "start-server-and-test dev http://localhost:3000 'cypress run'"
+},
   "dependencies": {
     "@bytescale/upload-widget-react": "^4.9.0",
     "@headlessui/react": "^1.7.7",
